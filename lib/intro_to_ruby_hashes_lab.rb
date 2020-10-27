@@ -20,5 +20,5 @@ end
 def id_hash_generator(number)
   # return a hash with a key :id assigned to the provided number
   id_hash = {testy: "Yes"}
-  return id_hash.object_id 
+  return :testy.object_id 
 end
