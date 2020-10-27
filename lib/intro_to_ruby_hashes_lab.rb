@@ -1,9 +1,11 @@
 def new_hash
   # return an empty hash
+  empty_hash = hash.new
 end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
+  valid_hash = { fish: "salmon" }
 end
 
 def pioneer
